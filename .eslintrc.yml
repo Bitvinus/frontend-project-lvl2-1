@@ -5,7 +5,7 @@ env:
   es2021: true
   node: true
 extends:
-  - 'airbnb-base'
+  - 'airbnb'
   - 'plugin:jest/recommended'
 parserOptions:
   ecmaVersion: 12
