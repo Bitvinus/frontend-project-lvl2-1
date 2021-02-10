@@ -1,14 +1,14 @@
 root: true
-plugins:
-  - jest
 env:
-  es2020: true
+  es2021: true
   node: true
+plugin:
+  - jest
 extends:
-  - 'eslint-config-airbnb-base'
-  - 'plugin:jest/recommended'
+  - airbnb-base
+  - plugin:jest/recommended
 parserOptions:
-  ecmaVersion: 11
+  ecmaVersion: 12
   sourceType: module
 rules: 
   no-console: 0
